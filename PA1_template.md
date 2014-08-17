@@ -85,8 +85,8 @@ Question 2: Which 5-minute interval, on average across all the days in the datas
 
 
 ```r
-maxMeanPerPnterval <- max(meanStepsPerInterval$Steps)
-subset(meanStepsPerInterval, Steps == maxMeanPerPnterval)$Interval
+maxMeanPerInterval <- max(meanStepsPerInterval$Steps)
+subset(meanStepsPerInterval, Steps == maxMeanPerInterval)$Interval
 ```
 
 ```
